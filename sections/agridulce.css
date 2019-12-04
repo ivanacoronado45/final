@@ -1,0 +1,16 @@
+.header h2{
+    color: orange;
+    background-color: black;
+    border-radius: 15px;
+    margin-left: 20px;
+}
+body{
+    background-color: wheat;
+
+}
+
+.fotelukis{
+    height: 200px;
+    width: 200px;
+    padding: 0px 100px 0px 100px;
+}

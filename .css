@@ -1,0 +1,55 @@
+body{
+    background-image: url(img/fondoo.jpg);
+    margin:0;
+}
+h1{
+    color: black;
+    text-align: center;
+    font-size:30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.logoo{
+    background-image: url("./img/logo.jpg");
+    margin-left: 10%;
+    margin-right: 150px;
+    grid-column: 1 /4;
+    height: 720px;
+}
+p{
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+table{
+    border:#ccc;
+    margin:auto;
+}
+.imagen{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+.imagen:hover{
+  /* transform:rotate(30deg); */
+    transform: scale(1.2);
+}
+.menu{
+    overflow: hidden;
+    grid-column: 1/4;
+    background-color: chocolate;
+}
+.relleno{
+    color: black;
+    padding: 0% 0% 0% 0%;
+    grid-column: 1/4;
+}
+.almuerzo{
+    color: black;
+    grid-column: 1/4;
+    padding: 20px 100px 20px 100px;
+}
+
